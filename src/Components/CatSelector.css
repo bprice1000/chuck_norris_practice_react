@@ -1,0 +1,27 @@
+.catSelectors{
+  display: grid;
+  width: 85%;
+  height: 10vh;
+  padding: .5rem 1rem 0 3rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto 5px auto;
+  border: 2px solid rgb(168, 168, 168);
+  border-radius: 1em;
+  min-height: 125px;
+  background: linear-gradient( rgba(255, 206, 44, 0.2), rgba(255, 206, 44, 0.2));
+
+}
+
+label {
+  padding-left: .15em;
+}
+
+input:hover {
+  transform: scale(1.5);
+  cursor:pointer;
+}
+
+h5 {
+  padding: 0;
+  margin: 0;
+}
