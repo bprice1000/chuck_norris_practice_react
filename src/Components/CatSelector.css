@@ -7,13 +7,14 @@
   margin: 0 auto 5px auto;
   border: 2px solid white;
   border-radius: 1em;
-  min-height: 125px;
+  min-height: 175px;
   background: linear-gradient( rgba(255, 206, 44, 0.4), rgba(255, 206, 44, 0.4));
 }
 
 label {
   font-family: 'Gloria Hallelujah', cursive;
   padding-left: .15em;
+  font-size: .75rem;
 }
 
 input:hover {

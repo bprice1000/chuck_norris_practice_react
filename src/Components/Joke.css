@@ -12,6 +12,7 @@
   margin: 0 auto;
   border: 2px solid white;
   border-radius: 1em;
+  height: 400px;
 }
 
 .front-text{
@@ -32,7 +33,7 @@
 }
 
 .joke-container:hover .front-text {
-  transform: translateY(-60px);
+  transform: translateY(-80px);
 }
 /* .joke-container:hover h6 {
   transform: opacity 0%;
