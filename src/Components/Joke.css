@@ -33,7 +33,7 @@
 }
 
 .joke-container:hover .front-text {
-  transform: translateY(-80px);
+  transform: translateY(-69px);
 }
 /* .joke-container:hover h6 {
   transform: opacity 0%;
@@ -42,18 +42,20 @@
 
 .joke-container:hover .back-text {
   bottom: 0;
-  transform: translateY(-25px);
+  transform: translateY(-45px);
 
 }
 
 h2{
     font-family: 'Gloria Hallelujah', cursive;
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 
 h6{
     font-family: 'Gloria Hallelujah', cursive;
   font-size: .75rem;
+  padding: 0;
+  margin: 0;
 }
 
 p{
