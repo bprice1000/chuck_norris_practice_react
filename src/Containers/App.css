@@ -3,3 +3,15 @@ div{
   background-repeat: no-repeat;
   background-size:contain;
 }
+
+.titleHeading {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 4rem;
+  
+}
+
+.footer{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: .5rem;
+    text-align: right;
+}

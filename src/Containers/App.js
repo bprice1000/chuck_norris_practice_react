@@ -32,16 +32,16 @@ class App extends Component {
   render() {
     const { jokes } = this.state;
     if (this.state.jokes.length === 0) {
-      return <h1>Loading</h1>
+      return <h1 className="h-100">Loading</h1>
   } else {
   return (
 
     <div>
-        <h1 className='tc'>Chuck Norris Joke Generator</h1>
+        <h1 className='titleHeading tc'>Chuck Norris Joke Generator</h1>
     <CatSelector catChange={this.onCatChange} />
     <Joke jokes={jokes}/>
     <Chuck />
-    <p>Made by Ben the Noob</p>
+    <p className='footer'>Made by Ben the Noob</p>
     </div>
 
   )

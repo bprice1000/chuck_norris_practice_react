@@ -5,14 +5,14 @@
   padding: .5rem 1rem 0 3rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0 auto 5px auto;
-  border: 2px solid rgb(168, 168, 168);
+  border: 2px solid white;
   border-radius: 1em;
   min-height: 125px;
-  background: linear-gradient( rgba(255, 206, 44, 0.2), rgba(255, 206, 44, 0.2));
-
+  background: linear-gradient( rgba(255, 206, 44, 0.4), rgba(255, 206, 44, 0.4));
 }
 
 label {
+  font-family: 'Gloria Hallelujah', cursive;
   padding-left: .15em;
 }
 
@@ -22,6 +22,7 @@ input:hover {
 }
 
 h5 {
-  padding: 0;
+  padding: 5px;
   margin: 0;
+  font-family: 'Gloria Hallelujah', cursive;
 }
