@@ -8,21 +8,21 @@
   padding: 60px;
     background: linear-gradient(rgba(255, 206, 44, 0.8), rgba(253, 253, 253, 0.4));
   color: #242423;
-  width: 90vw;
+  width: 80vw;
   margin: 0 auto;
   border: 2px solid white;
   border-radius: 1em;
-  height: 400px;
+  height: 350px;
 }
 
 .front-text{
-  transition: transform 2.0s;
+  transition: transform 2.2s;
   font-size: 1rem;
 }
 
 .back-text{
   position: absolute;
-  transition: bottom 1.5s;
+  transition: bottom 1.3s;
   bottom: -15rem;
   width: 70vw;
   height: 50%;
@@ -33,7 +33,7 @@
 }
 
 .joke-container:hover .front-text {
-  transform: translateY(-69px);
+  transform: translateY(-67px);
 }
 /* .joke-container:hover h6 {
   transform: opacity 0%;
@@ -42,7 +42,7 @@
 
 .joke-container:hover .back-text {
   bottom: 0;
-  transform: translateY(-45px);
+  transform: translateY(-48px);
 
 }
 

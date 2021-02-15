@@ -6,7 +6,7 @@ const Joke = ({ jokes }) => {
   return (
     <div className='joke-container grow '>
       <div className='front-text'>
-        <h2 className=''>So you want { jokes.categories } Chuck Norris jokes, eh?</h2>
+        <h2 className='joke'>So you want { jokes.categories } Chuck Norris jokes, eh?</h2>
         <h6>Hover over me to lul</h6>
       </div>
       <div className='back-text'>

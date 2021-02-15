@@ -1,8 +1,8 @@
 .catSelectors{
   display: grid;
-  width: 85%;
+  width: 80vw;
   height: 10vh;
-  padding: .5rem 1rem 0 3rem;
+  padding: .5rem .5rem 0 3rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0 auto 5px auto;
   border: 2px solid white;
@@ -14,7 +14,7 @@
 label {
   font-family: 'Gloria Hallelujah', cursive;
   padding-left: .15em;
-  font-size: .75rem;
+  font-size: .9rem;
 }
 
 input:hover {
@@ -22,8 +22,8 @@ input:hover {
   cursor:pointer;
 }
 
-h5 {
-  padding: 5px;
+h4 {
+  padding: 10px;
   margin: 0;
   font-family: 'Gloria Hallelujah', cursive;
 }

@@ -4,7 +4,7 @@ import './CatSelector.css'
 const CatSelector = ({catChange}) => {
   return (
     <div className='catWrapper'>
-    <h5 className='tc '>You may select a specific type below...</h5>
+    <h4 className='tc '>You may select a specific type below...</h4>
     <div className='catSelectors'>
     <div>
       <input onChange={catChange} type='radio' name='cat' value='animal' id='animal'></input>
