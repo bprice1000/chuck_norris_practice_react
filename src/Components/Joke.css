@@ -13,6 +13,7 @@
   border: 2px solid white;
   border-radius: 1em;
   height: 350px;
+  user-select: none;
 }
 
 .front-text{
